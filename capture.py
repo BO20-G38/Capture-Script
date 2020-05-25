@@ -14,9 +14,7 @@ from time import sleep
 from picamera import PiCamera
 import requests
 import sys
-sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
 import cv2
-sys.path.append('/opt/ros/kinetic/lib/python2.7/dist-packages')
 
 # prepares the image by grey scaling, and resizing to 100X100
 def prep_img(filepath):
